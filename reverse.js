@@ -12,3 +12,4 @@ let letras = ["A", "B", "C", "D", "E"];
 letras.reverse()
 
 console.log(letras);
+//output: [ 'E', 'D', 'C', 'B', 'A' ]
