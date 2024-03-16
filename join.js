@@ -9,3 +9,9 @@ let resultado = cores.join(", ");
 console.log(resultado);
 //output: Azul, Verde, Amarelo, Laranja.
 
+//Exemplo 2:
+let marcas = ["Adidas", "Starbucks", "Dell", "McDonalds"];
+let total = marcas.join(", ");
+
+console.log(total);
+//output: Adidas, Starbucks, Dell, McDonalds
