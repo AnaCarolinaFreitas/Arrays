@@ -6,3 +6,10 @@ cantores.shift();
 
 console.log(cantores);
 //output: [ 'Harry Styles', 'The weekend', 'Bruno Mars' ]
+
+//Exemplo 2:
+let animais = ["Elefante", "Cachorro", "Girafa", "Gato"];
+animais.shift();
+
+console.log(animais);
+//output: [ 'Cachorro', 'Girafa', 'Gato' ]
