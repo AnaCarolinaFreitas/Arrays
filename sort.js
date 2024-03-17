@@ -8,3 +8,10 @@ nomes.sort();
 
 console.log(nomes);
 //output: [ 'Ana', 'José', 'Luiza' ] 
+
+//Exemplo 2:
+let aplicativos = ["twitter", "Youtube", "Spotify", "Twitch"];
+aplicativos.sort()
+
+console.log(aplicativos);
+//output: [ 'Spotify', 'Twitch', 'Youtube', 'twitter' ]
