@@ -25,3 +25,13 @@ flores.splice(3, 2);
 
 console.log(flores)
 //output: [ 'tulipas', 'rosas brancas', 'margaridas' ]
+
+//Exemplo 3 (Substituindo um elemento):
+let semana = ["Segunda-feira", "Terça-feira", "Sabado", "Quinta-feira", "Sexta-feira"];
+//Neste exemplo iremos substituir o elemento "Sabado" por um novo elemento "Quarta-feira"
+// Antes a sequencia era: "Segunda-feira", "Terça-feira", "Sabado", "Quinta-feira", "Sexta-feira"
+//Após a substituição será: "Segunda-feira", "Terça-feira", "Quarta-feira", "Quinta-feira", "Sexta-feira"
+semana.splice(2,1, "Quarta-feira");
+
+console.log(semana);
+//output: [ 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira']
