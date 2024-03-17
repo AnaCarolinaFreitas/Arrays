@@ -1,5 +1,6 @@
 //Este é o metodo concat
 //Utilizando-o podemos juntar dois ou mais arrays
+//Colocando este próximo array como ultimo
 //Exemplo 1:
 let planetas = ["Mercúrio", "Vênus", "Terra"];
 let outros = planetas.concat(["Júpiter", "Saturno" ]);
