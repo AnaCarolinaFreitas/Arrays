@@ -9,3 +9,10 @@ let tamanho = marcas.length;
 console.log("O tamanho é:" +  tamanho);
 //Utilizei o comando console.log e adicionei uma frase que se somará a variavel tamanho definida anteriormente
 //output: O tamanho é:3
+
+//Exemplo 2:
+let numeros = ["0", "1", "2", "3", "4", "5"];
+let size = numeros.length;
+
+console.log("O tamanho é:" + size);
+//output: O tamanho é:6
