@@ -14,3 +14,14 @@ let estacoes = ["Outono", "Inverno", "Verão"];
 estacoes.splice(2, 0, "Primavera");
 
 console.log(estacoes)
+//output: [ 'Outono', 'Inverno', 'Primavera', 'Verão' ] 
+
+//Exemplo 2 (Removendo um elemento):
+let flores = ["tulipas", "rosas brancas", "margaridas", "orquidea", "girassol"];
+//Neste caso, iremos remover os elementos de indice 3 e 4
+//Antes o array tinha elementos até o indice 4
+//Agora terá elementos somente até o indice 2
+flores.splice(3, 2);
+
+console.log(flores)
+//output: [ 'tulipas', 'rosas brancas', 'margaridas' ]
