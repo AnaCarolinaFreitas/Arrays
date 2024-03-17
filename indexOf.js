@@ -16,3 +16,4 @@ let posicao = planetas.indexOf("Mercurio");
 // Aqui foi utilizado para mostrar o index do planeta Mercurio
 
 console.log(posicao);
+//output: 0
