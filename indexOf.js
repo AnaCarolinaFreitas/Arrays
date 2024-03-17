@@ -9,3 +9,10 @@ let index = objetos.indexOf("Calculadora");
 console.log(index);
 //Utilizado para exibir o index
 //output: 2
+
+//Exemplo 2:
+let planetas = ["Mercurio", "Venus", "Terra", "Marte"];
+let posicao = planetas.indexOf("Mercurio");
+// Aqui foi utilizado para mostrar o index do planeta Mercurio
+
+console.log(posicao);
